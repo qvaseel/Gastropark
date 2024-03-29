@@ -1,0 +1,63 @@
+.feedbackCard {
+  max-width: 1209px;
+  margin-top: 58px;
+  background-color: #ffffff;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 17px 28px 48px;
+  margin-bottom: 44px;
+  gap: 18px;
+  @media (max-width: 550px) {
+    max-width: 393px;
+    margin-top: 10px;
+    padding-left: 26px;
+    padding-right: 0px;
+    padding-bottom: 26px;
+    padding-top: 12px;
+  }
+}
+
+.feedbackCard_Name {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  @media (max-width: 550px) {
+    display: none;
+  }
+}
+
+.wrapper_feedback-card {
+  margin-bottom: 50px;
+}
+
+.scroll_feedback {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 400px;
+  width: 1169px;
+  @media (max-width: 550px) {
+    width: 360px;
+    height: 237px;
+  }
+}
+
+.scroll_feedback::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 26px;
+}
+
+.scroll_feedback::-webkit-scrollbar-track {
+  width: 26px;
+  border-radius: 10px;
+}
+
+.scroll_feedback::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #929292;
+  border-radius: 10px;
+  width: 14px;
+}

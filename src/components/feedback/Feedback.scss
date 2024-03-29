@@ -1,0 +1,84 @@
+.wrapper_feedback {
+  padding: 25px;
+  max-width: 1073px;
+  border-radius: 36px;
+  background-color: #262626;
+  margin-top: 0;
+  flex-direction: column;
+  @media (max-width: 550px) {
+    max-width: 370px; //
+  }
+
+  .author_review {
+    margin-top: 0px;
+    display: flex;
+    margin-left: 30px;
+    @media (max-width: 550px) {
+      margin-left: 0px;
+    }
+
+    .nameAndDate {
+      color: #ffffff;
+
+      .name {
+        font-size: 20px;
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 19px;
+        font-family: "Roboto", sans-serif;
+        @media (max-width: 550px) {
+          font-size: 16px;
+        }
+      }
+
+      .date {
+        font-size: 16px;
+        margin: 0;
+        margin-top: 5px;
+        margin-left: 19px;
+        font-family: "Roboto", sans-serif;
+        @media (max-width: 550px) {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .stars {
+      margin-left: auto;
+      margin-right: 81px;
+      margin-top: 10px;
+      @media (max-width: 550px) {
+        margin-right: 0px;
+      }
+    }
+  }
+
+  .wrapper_text {
+    max-width: 979px;
+    background-color: #ffffff;
+    border-radius: 36px;
+    margin-top: 12px;
+    margin-left: 30px;
+    padding: 13px 24px;
+    @media (max-width: 550px) {
+      margin-left: 0px;
+    }
+    .main_textFeedback {
+      margin: 0;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+}
+
+.star_img {
+  @media (max-width: 550px) {
+    width: 104px;
+    height: 18px;
+  }
+}
+
+.human_logo {
+  width: 42px;
+  height: 42px;
+}

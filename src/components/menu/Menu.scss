@@ -1,0 +1,67 @@
+.field {
+  width: 799px;
+  border-radius: 36px;
+  max-height: 783px;
+  background-color: #ffffff;
+  margin-top: 76px;
+  @media (max-width: 550px) {
+    width: 383px;
+    height: 367px;
+    margin-top: 9px;
+    padding-bottom: 26px;
+  }
+}
+
+.NameComponents {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+  @media (max-width: 550px) {
+    padding-top: 0px;
+    margin-top: 9px;
+    margin-bottom: 18px;
+    font-size: 22px;
+  }
+}
+
+.wrapper_menu {
+  display: flex;
+  margin-left: 75px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  @media (max-width: 550px) {
+    margin-left: 18px;
+  }
+}
+
+.dishes {
+  padding-top: 41px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 613px; //выжный отступ
+  width: 759px;
+  @media (max-width: 550px) {
+    width: 380px;
+    height: 279px;
+    margin-bottom: 0px;
+    margin-left: 3px;
+  }
+}
+.dishes::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 26px;
+}
+
+.dishes::-webkit-scrollbar-track {
+  width: 26px;
+  border-radius: 10px;
+}
+
+.dishes::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #929292;
+  border-radius: 10px;
+  width: 14px;
+}

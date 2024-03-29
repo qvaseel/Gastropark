@@ -1,0 +1,138 @@
+.home_main {
+  width: 1296px;
+  margin: 0 auto;
+  margin-top: 125px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media (max-width: 550px) {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 96px;
+  }
+}
+
+.home_restcont {
+  width: 409px;
+  background-color: #262626;
+  @media (max-width: 550px) {
+    width: 100%;
+    height: 247px;
+  }
+}
+
+.home_logos {
+  padding-left: 39px;
+  width: 325px;
+  padding-top: 30px;
+  padding-bottom: 41px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 899px;
+  @media (max-width: 550px) {
+    width: 95%;
+    flex-direction: row;
+    overflow-x: auto;
+    height: 196px;
+    padding-left: 15px;
+    padding-top: 26px;
+    padding-bottom: 0px;
+  }
+}
+
+.home_logos::-webkit-scrollbar {
+  width: 26px;
+}
+
+.home_logos::-webkit-scrollbar-track {
+  background-color: white;
+  width: 26px;
+  border-radius: 10px;
+}
+
+.home_logos::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #929292;
+  border-radius: 10px;
+  width: 14px;
+}
+
+.home_logo {
+  width: 258px;
+  height: 258px;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 258px;
+  @media (max-width: 550px) {
+    width: 143px;
+    height: 143px;
+    border-radius: 31px;
+    flex: 0 0 143px;
+  }
+}
+
+.home_logo:not(:last-child) {
+  margin-bottom: 27px;
+  @media (max-width: 550px) {
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+.home_wiw {
+  width: 852px;
+  background-color: #262626;
+  @media (max-width: 550px) {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+}
+
+.map {
+  margin-left: 28px;
+  width: 749px;
+  height: 730px;
+  @media (max-width: 550px) {
+    width: 395px;
+    height: 385px;
+    margin: 0 auto;
+    margin-bottom: 34px;
+  }
+}
+
+.align {
+  @media (max-width: 550px) {
+    width: 395px;
+    height: 385px;
+    margin: 0 auto;
+    margin-bottom: 34px;
+  }
+}
+
+.home_h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.zag {
+  display: flex;
+  flex-direction: row;
+  max-width: 639px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 31px;
+  margin-left: 138px;
+  margin-bottom: 33px;
+  @media (max-width: 550px) {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 33px;
+  }
+}
