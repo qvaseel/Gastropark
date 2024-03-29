@@ -1,0 +1,61 @@
+.wrapper_restaurant_info {
+  max-width: 333px;
+  border-radius: 36px;
+  margin-top: 76px;
+  background-color: #ffffff;
+  @media (max-width: 550px) {
+    margin-top: 9px;
+    max-width: 383px;
+  }
+}
+
+.card_wrapper {
+  @media (max-width: 550px) {
+    display: flex;
+  }
+}
+
+.restaurant_img {
+  @media (max-width: 550px) {
+    width: 144px;
+    height: 143px;
+    margin-left: 27px;
+  }
+}
+
+.Name_restaurant {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  @media (max-width: 550px) {
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+}
+
+.wrapper_img {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.RestaurantInfo_text {
+  font-family: "Roboto", sans-serif;
+  margin-top: 75px;
+  padding-right: 36px;
+  padding-left: 36px;
+  text-align: justify;
+  @media (max-width: 550px) {
+    font-size: 15px;
+    margin-top: 0px;
+    padding-right: 31px;
+    padding-left: 39px;
+  }
+}
